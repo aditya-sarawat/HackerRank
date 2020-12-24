@@ -1,8 +1,12 @@
-# HackerRank
+<p align="center">
+   <a align="center" href="https://www.hackerrank.com/Kanahaiya">
+       <img height=85 src="https://d3keuzeb2crhkn.cloudfront.net/hackerrank/assets/styleguide/logo_wordmark-f5c5eb61ab0a154c3ed9eda24d0b9e31.svg">
+   </a>
+ <p/>
 
-It includes all the solutions of Hackerrank 30 Days of Code in c++ and java.
----
-
-### The number represent the day.
+<p align="center">
+   This repository contains <b>efficient hackerrank solutions</b> for most of the <b>hackerrank challenges</b>
+<p/>
 
 Don't Forget to STAR the repository.
+---
