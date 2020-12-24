@@ -1,0 +1,72 @@
+#include <iostream>
+
+using namespace std;
+/*
+ * Create classes Rectangle and RectangleArea
+ */
+
+
+class Rectangle {
+public:
+    virtual void display() const {
+        cout << width << ' ' << height << endl;
+    }
+    
+protected:
+    int width;
+    int height;
+};
+
+class RectangleArea : public Rectangle {
+public:
+    void display() const override {
+        cout << (width * height) << endl;
+    }
+    
+    void read_input() {
+        cin >> width >> height;
+    }
+};
+
+int main()
+{
+    /*
+     * Declare a RectangleArea object
+     */
+    RectangleArea r_area;
+    
+    /*
+     * Read the width and height
+     */
+    r_area.read_input();
+    
+    /*
+     * Print the width and height
+     */
+    r_area.Rectangle::display();
+    
+    /*
+     * Print the area
+     */
+    r_area.display();
+    
+    return 0;
+}
+
+/*
+
+Output Format
+
+The output should consist of exactly two lines:
+In the first line, print the width and height of the rectangle separated by space.
+In the second line, print the area of the rectangle.
+
+Sample Input
+
+10 5
+Sample Output
+
+10 5
+50
+Explanation
+*/
